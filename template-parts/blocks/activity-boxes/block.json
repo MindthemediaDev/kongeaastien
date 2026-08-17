@@ -1,0 +1,17 @@
+{
+  "name": "acf/activity-boxes",
+  "title": "Aktivitetsoversigt",
+  "description": "Oversigt over aktiviteter",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["aktiviteter", "oversigt", "stories"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "activity-boxes.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

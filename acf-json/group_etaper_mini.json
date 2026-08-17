@@ -1,0 +1,171 @@
+{
+    "key": "group_etaper_mini",
+    "title": "Etaper Mini",
+    "fields": [
+        {
+            "key": "field_etaper_mini_headline",
+            "label": "Overskrift",
+            "name": "headline",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "H2 overskrift over etapelisten.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Se Kongeåstiens etaperne her",
+            "placeholder": "Se Kongeåstiens etaperne her",
+            "maxlength": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_etaper_mini_etaper",
+            "label": "Etaper",
+            "name": "etaper",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Tilføj etaper til listen.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Tilføj etape",
+            "rows_per_page": 20,
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_etaper_mini_etape_nummer",
+                    "label": "Etape nummer",
+                    "name": "etape_nummer",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "F.eks. \"Etape 1.\"",
+                    "required": 0,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Etape 1.",
+                    "maxlength": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_etaper_mini_etaper"
+                },
+                {
+                    "key": "field_etaper_mini_fra",
+                    "label": "Fra",
+                    "name": "fra",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Startsted for etapen.",
+                    "required": 0,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Kongeåslusen",
+                    "maxlength": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_etaper_mini_etaper"
+                },
+                {
+                    "key": "field_etaper_mini_til",
+                    "label": "Til",
+                    "name": "til",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Slutsted for etapen.",
+                    "required": 0,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Vilslev",
+                    "maxlength": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_etaper_mini_etaper"
+                },
+                {
+                    "key": "field_etaper_mini_distance",
+                    "label": "Distance",
+                    "name": "distance",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "F.eks. \"7,5 km.\"",
+                    "required": 0,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "7,5 km.",
+                    "maxlength": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_etaper_mini_etaper"
+                },
+                {
+                    "key": "field_etaper_mini_link",
+                    "label": "Link (valgfrit)",
+                    "name": "link",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "Valgfri URL — gør rækken klikbar.",
+                    "required": 0,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "https:\/\/",
+                    "parent_repeater": "field_etaper_mini_etaper"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/etaper-mini"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "display_title": "",
+    "modified": 1773045571
+}

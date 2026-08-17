@@ -1,0 +1,17 @@
+{
+  "name": "acf/spacer",
+  "title": "Afstandselement",
+  "description": "Element til afstand.",
+  "category": "kongeaastien",
+  "icon": "align-pull-right",
+  "keywords": ["space", "afstand", "split", "columns"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "spacer.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

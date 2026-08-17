@@ -1,0 +1,17 @@
+{
+  "name": "acf/arrangementer-boxes",
+  "title": "Arrangementeroversigt",
+  "description": "Oversigt over aktiviteter",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["arrangementer", "oversigt", "stories"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "arrangement-boxes.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

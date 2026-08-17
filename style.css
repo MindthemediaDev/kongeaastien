@@ -1,0 +1,58 @@
+/*
+Theme Name: Kongeåstien
+Version: 1.0
+*/
+
+/* Standard skrifttyper */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Standard links */
+a {
+    _color: #0073aa;
+    text-decoration: none;
+}
+
+/* Standard baggrunde eller spacing */
+section {
+    padding: 2rem 0;
+}
+
+
+.article-links-block{
+    padding:80px 0;
+    color:white;
+}
+
+.article-links-overtekst{
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.article-links-title{
+    font-size:56px;
+    font-weight:300;
+    margin-bottom:40px;
+}
+
+.article-links-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.article-link{
+    color:white;
+    font-size:20px;
+    text-decoration:underline;
+}
+
+.article-link .arrow{
+    margin-right:12px;
+}

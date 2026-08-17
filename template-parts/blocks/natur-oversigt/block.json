@@ -1,0 +1,17 @@
+{
+  "name": "acf/natur-oversigt",
+  "title": "Natur Oversigt",
+  "description": "Oversigt over naturartikler med fremhævede og standard kort.",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["natur", "oversigt", "stories"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "natur-oversigt.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "acf/hero-overlay",
+  "title": "Hero Overlay",
+  "description": "Hero image with overlapping content card and anchor links.",
+  "category": "kongeaastien",
+  "icon": "cover-image",
+  "keywords": ["hero", "image", "overlay", "anchors"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "hero-overlay.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

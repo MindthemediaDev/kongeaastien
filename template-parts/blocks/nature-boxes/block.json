@@ -1,0 +1,17 @@
+{
+  "name": "acf/nature-boxes",
+  "title": "Naturoversigt",
+  "description": "Oversigt over natur",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["natur", "oversigt", "stories"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "nature-boxes.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

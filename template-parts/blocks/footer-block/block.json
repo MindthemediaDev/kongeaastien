@@ -1,0 +1,17 @@
+{
+  "name": "acf/footer-block",
+  "title": "Footer Block",
+  "description": "Footer block with kommuner and sponsor",
+  "category": "kongeaastien",
+  "icon": "cover-image",
+  "keywords": ["sponsor", "kommuner"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "footer-block.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

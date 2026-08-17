@@ -1,0 +1,17 @@
+{
+  "name": "acf/embedded-map",
+  "title": "Indlejret kort",
+  "description": "Map from udinaturen.dk.",
+  "category": "kongeaastien",
+  "icon": "align-pull-right",
+  "keywords": ["text", "image", "split", "columns"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "embedded-map.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

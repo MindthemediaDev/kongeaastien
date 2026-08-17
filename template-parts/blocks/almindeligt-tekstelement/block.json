@@ -1,0 +1,17 @@
+{
+  "name": "acf/almindeligt-tekstelement",
+  "title": "Almindeligt tekstelement",
+  "description": "",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["article", "tekst", "text", "almindeligt"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "almindeligt-tekstelement.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

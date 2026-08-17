@@ -1,0 +1,17 @@
+{
+  "name": "acf/historier-oversigt",
+  "title": "Historier Oversigt",
+  "description": "Oversigt over historier med fremhævede og standard kort.",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["historier", "oversigt", "stories"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "historier-oversigt.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

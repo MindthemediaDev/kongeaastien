@@ -1,0 +1,17 @@
+{
+  "name": "acf/background-container",
+  "title": "Background Container",
+  "description": "A container with inner blocks",
+  "category": "kongeaastien",
+  "icon": "styles",
+  "keywords": ["background", "color"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "background-container.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

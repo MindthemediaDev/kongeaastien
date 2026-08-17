@@ -1,0 +1,17 @@
+{
+  "name": "acf/article-links",
+  "title": "Article Links",
+  "description": "A block with a list of links and a background color.",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["links", "artikel", "arkiv"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "article-links.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

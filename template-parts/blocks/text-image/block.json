@@ -1,0 +1,17 @@
+{
+  "name": "acf/text-image",
+  "title": "Text Image",
+  "description": "A two-column section with text content on the left and an image on the right.",
+  "category": "kongeaastien",
+  "icon": "align-pull-right",
+  "keywords": ["text", "image", "split", "columns"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "text-image.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

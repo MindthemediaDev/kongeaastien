@@ -1,0 +1,16 @@
+{
+  "name": "acf/etaper-tabel",
+  "title": "Etapeliste i tabel",
+  "description": "Shows selected etaper in a table.",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["etape", "list", "route"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "etaper-table.php"
+  },
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"]
+  }
+}

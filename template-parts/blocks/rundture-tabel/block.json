@@ -1,0 +1,16 @@
+{
+  "name": "acf/rundture-tabel",
+  "title": "Rundtureliste i tabel",
+  "description": "Shows selected rundture in a table.",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["rundture", "list", "route"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "rundture-table.php"
+  },
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"]
+  }
+}

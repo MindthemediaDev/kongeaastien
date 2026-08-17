@@ -1,0 +1,17 @@
+{
+  "name": "acf/map",
+  "title": "Map",
+  "description": "Map with all the routes",
+  "category": "kongeaastien",
+  "icon": "align-pull-right",
+  "keywords": ["map"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "map.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

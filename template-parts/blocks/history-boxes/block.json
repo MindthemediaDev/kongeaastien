@@ -1,0 +1,17 @@
+{
+  "name": "acf/history-boxes",
+  "title": "Historieoversigt",
+  "description": "Oversigt over historier",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["historier", "oversigt", "stories"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "history-boxes.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}

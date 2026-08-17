@@ -1,0 +1,17 @@
+{
+  "name": "acf/article-sidebar",
+  "title": "Article Sidebar",
+  "description": "Related articles with highlighted articles shown with image, and an archive link list.",
+  "category": "kongeaastien",
+  "icon": "list-view",
+  "keywords": ["article", "sidebar", "related", "links", "arkiv"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "article-sidebar.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "jsx": false
+  }
+}
